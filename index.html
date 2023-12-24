@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Планировщик задач</title>
+</head>
+
+<body>
+  <form name="taskForm">
+    <div>
+      <h2>Добавить задачу</h2>
+      <input type="text" placeholder="Введите текст задачи" name="taskFormInput"><button type="button"
+        name="addButton">Добавить</button>
+    </div>
+    <div>
+      <h2>Список задач</h2>
+      <div id="taskList">
+        <p id="emptyList">Нет задач</p>
+      </div>
+      <button name="removeButton" disabled>Очистить список задач</button>
+    </div>
+  </form>
+  <script src="assets/index.js"></script>
+</body>
+
+</html>
